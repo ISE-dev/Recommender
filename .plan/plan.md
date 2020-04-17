@@ -68,13 +68,32 @@
     ・送信ボタン -> ログインし、ホーム画面に遷移  
     <br>
 
-### URL設計
-ホーム : /index/
+* ## URL設計
+ホーム: /index/
+ログインページ: /login
+投稿ページ: /post
 <br>
 
-### DB設計
-<br>
-<br>
+* ## テーブル設計(SQLite)
+    * ### ユーザ(users)
+    |内容 |カラム名 |型 |属性
+    |:-: |:-: |:-: |:-:
+    |ID(連番) |user_id |INTEGER |P-KEY、AUTOINCREMENT
+    |名前<br>(ニックネーム) |user_name |TEXT
+    |メアド |user_email |TEXT
+    |パスワード |user_password |TEXT
+    
+    * ### 投稿(post)
+    |内容 |カラム名 |型 |属性
+    |:-: |:-: |:-: |:-:
+    |記事ID |id |INTEGER |P-KEY, AUTOINCREMENT
+    |タイトル(商品名) |title |TEXT
+    |投稿本文 |body |TEXT
+    |カテゴリ |category |TEXT
+    |投稿ユーザID |user_id |INTEGER
+    |投稿日時 |post_date |TEXT
+    |更新日時 |update_date |TEXT
+
 <br>
 
 (2020.4.17)
