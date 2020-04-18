@@ -91,8 +91,8 @@
     |投稿本文 |body |TEXT
     |カテゴリ |category |TEXT
     |投稿ユーザID |user_id |INTEGER
-    |投稿日時 |post_date |TEXT
-    |更新日時 |update_date |TEXT
+    |投稿日時 |created_at |DATETIME
+    |更新日時 |updated_at |DATETIME
 
 <br>
 
