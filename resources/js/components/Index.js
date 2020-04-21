@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import style from "../../css/style.css";
+
+import style from "../../css/index.css";
+
+
 
 function Header() {
-  return (<header>
+  return (<header id="top">
     <div class="header">
       <div class="header-left">
         <h1 class="title">App title</h1>
@@ -14,7 +17,10 @@ function Header() {
       </div>
 
       <div class="header-form">
-        <input type="search" placeholder="キーワードを入力" />
+        <form>
+          <button> 🔍</button>
+          <input type="search" placeholder="キーワードを入力"></input>        
+        </form>
       </div>
 
       
@@ -26,21 +32,35 @@ function Message() {
   return (
     <h1 class="announce">
       recent post
+
     </h1>
+    
   );
 }
 
-function Display() {
-  var items = ["a","b","c","d","e"]
+function GoTop() {
+  return (
+    <nav>
+      <a href="#top" class="go-top">&and;</a>  
+    </nav>
+    
+  )
+}
+
+
+
+
+
+function Content() {
+  var items = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n"]
   return (
     <div class="content">
-      <ul>
-        {Object.keys(items).map(key => (
+      {Object.keys(items).map(key => (
           <div class="RecommendedItem">
             <h1>
-              {items[key]}
+              記事　{items[key]}
             </h1>
-            <h5>・おすすめの理由</h5>
+            <h5>・おすすめ</h5>
             <p>おすすめおすすめおすすめおすすめおすすめおすすめおすすめ
               おすすめおすすめおすすめおすすめおすすめおすすめおすすめおすすめおすすめおすすめおすすめ
               おすすめおすすめおすすめおすすめおすすめおすすめおすすめ
@@ -51,7 +71,6 @@ function Display() {
               おすすめおすすめおすすめおすすめおすすめおすすめおすすめおすすめおすすめおすすめおすすめ</p>
           </div>
         ))}
-      </ul>
     </div>
   );
   
@@ -63,7 +82,8 @@ function App() {
     <div>
       <Header />
       <Message />
-      <Display />
+      <Content />
+      <GoTop />
     </div>
   );
 }
