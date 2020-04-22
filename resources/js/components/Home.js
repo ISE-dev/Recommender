@@ -5,16 +5,16 @@ import ReactDom from 'react-dom';
  export class Header extends React.Component {
     render() {
       return (<header id="top">
-       <div class="header">
-          <div class="header-left">
-           <h1 class="title">App title</h1>
+       <div className="header">
+          <div className="header-left">
+           <h1 className="title">App title</h1>
           </div>
   
-         <div class="header-right">
-           <a href="#" class="signup link">新規登録</a><a href="#" class="login link">ログイン</a>
+         <div className="header-right">
+           <a href="#" className="signup link">新規登録</a><a href="#" className="login link">ログイン</a>
          </div>
   
-          <div class="header-form">
+          <div className="header-form">
            <form>
              <button> 🔍</button>
              <input type="search" placeholder="キーワードを入力"></input>        
@@ -29,7 +29,7 @@ import ReactDom from 'react-dom';
     render(){
       return (
         <div>
-          <h1 class="announce">recent post</h1>
+          <h1 className="announce">recent post</h1>
         </div>
       );
     }
@@ -43,9 +43,9 @@ import ReactDom from 'react-dom';
     }
     render() {
       return (
-        <div class="content">
+        <div className="content">
                 {Object.keys(this.state).map(key => (
-            <div class="RecommendedItem">
+            <div className="RecommendedItem">
               <h1>
                 記事　{this.state[key]}
               </h1>
@@ -71,7 +71,7 @@ import ReactDom from 'react-dom';
       return (
         <div>
           <nav>
-            <a href="#top" class="go-top" go top>&and;</a>  
+            <a href="#top" className="go-top" go top>&and;</a>  
           </nav>
         </div>
       );
