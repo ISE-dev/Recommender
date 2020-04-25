@@ -49,10 +49,6 @@
 }
 
 
-.RecommendedItem{
-    background: rgba(73, 35, 154, 0.33);
-    margin: 30px 60px;
-}
 .content {
     margin-top: 5%;
     margin:5% 60px;
@@ -87,3 +83,27 @@
 
   }
 
+.content_zone {
+    color: black;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.content_zone:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.RecommendedItem{
+    background: rgba(73, 35, 154, 0.33);
+    margin: 30px 60px;
+}
+
+
+.RecommendedItem:hover {
+    background-color: rgba(73, 35, 154, 0.2);
+    text-decoration: none;
+    color: white;
+
+}
