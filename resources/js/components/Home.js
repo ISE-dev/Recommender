@@ -39,15 +39,15 @@ import ReactDom from 'react-dom';
   export class Content extends React.Component {
     constructor(props){
       super(props);
-      this.state=["a","b","c","d","e","f","g","h","i","j","k","l","m","n"];
+      this.state={"items":["a","b","c","d","e","f","g","h","i"]};
     }
     render() {
       return (
         <div className="content">
-                {Object.keys(this.state).map(key => (
+                {Object.keys(this.state.items).map(key => (
             <div className="RecommendedItem">
               <h1>
-                記事　{this.state[key]}
+                記事　{this.state.items[key]}
               </h1>
               <h5>・おすすめ</h5>
               <p>おすすめおすすめおすすめおすすめおすすめおすすめおすすめ
@@ -71,7 +71,7 @@ import ReactDom from 'react-dom';
       return (
         <div>
           <nav>
-            <a href="#top" className="go-top" go top>&and;</a>  
+            <a href="#top" className="go_top">&and;</a>  
           </nav>
         </div>
       );

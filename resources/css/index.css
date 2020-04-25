@@ -62,7 +62,7 @@
 
 }
 
-.go-top {
+.go_top {
     display: inline-block;
     text-decoration: none;
     background: #87befd;
@@ -78,9 +78,10 @@
     float: right;
     font-size: 70px;
     background: #ADADAD;
+    top:"true";
   }
   
-  .go-top:hover {
+  .go_top:hover {
     color:red;
     text-decoration: none;
 
