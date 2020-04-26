@@ -49,10 +49,6 @@
 }
 
 
-.RecommendedItem{
-    background: rgba(73, 35, 154, 0.33);
-    margin: 30px 60px;
-}
 .content {
     margin-top: 5%;
     margin:5% 60px;
@@ -62,7 +58,7 @@
 
 }
 
-.go-top {
+.go_top {
     display: inline-block;
     text-decoration: none;
     background: #87befd;
@@ -78,11 +74,36 @@
     float: right;
     font-size: 70px;
     background: #ADADAD;
+    top:"true";
   }
   
-  .go-top:hover {
+  .go_top:hover {
     color:red;
     text-decoration: none;
 
   }
 
+.content_zone {
+    color: black;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.content_zone:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.RecommendedItem{
+    background: rgba(73, 35, 154, 0.33);
+    margin: 30px 60px;
+}
+
+
+.RecommendedItem:hover {
+    background-color: rgba(73, 35, 154, 0.2);
+    text-decoration: none;
+    color: white;
+
+}

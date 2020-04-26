@@ -11,10 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Display data list for test.
+Route::get('test', 'TestController@index');
+
+// Normal route.
+Route::get('/{any}', function () {
+  return view('welcome');
+})->where('any', '.*');
 
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
