@@ -1,13 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import ReactDom from 'react-dom';
-import axios from "axios";
 import style from "../../css/index.css";
 import {Header, Message, Content, GoTop} from "./Home";
 
-
-
 class App extends React.Component {
-
   render() {
     return (
       <div>
@@ -20,4 +16,6 @@ class App extends React.Component {
   }
 }
 
+if (document.getElementById('app')) {
   ReactDom.render(<App />, document.getElementById('app'));
+}
