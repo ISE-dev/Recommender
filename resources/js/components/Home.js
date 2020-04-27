@@ -75,7 +75,7 @@ import React, { useEffect, useState } from 'react';
       <div className="content">
         {posts.map((post) =>
         <div className="RecommendedItem ">
-          <a href="#" className="content_zone">
+          <a href="/detail" className="content_zone">
           <h1 key="{post.id}">{post.title}</h1>
           <p key="{post.id}">category: {post.category}</p>
           <p key="{post.id}">投稿日: {post.created_at}</p>
