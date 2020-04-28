@@ -2,14 +2,15 @@ import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Route , Switch} from 'react-router-dom';
 import ReactDom from 'react-dom';
 import axios from "axios";
-import ReactDom from 'react-dom';
 import style from "../../css/index.css";
 import {Header, RecentMessage, RecentPost, GoTop} from "./Home";
 import {DetailContent, DetailMessage} from "./showDetail";
 import  {HashLink} from "react-router-hash-link";
 
 
+
 class App extends React.Component {
+
   render() {
     return (
       <div>
@@ -32,6 +33,4 @@ class App extends React.Component {
   }
 }
 
-if (document.getElementById('app')) {
   ReactDom.render(<App />, document.getElementById('app'));
-}
