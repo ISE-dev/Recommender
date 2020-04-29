@@ -44,7 +44,7 @@ import React, { useEffect, useState } from 'react';
                 <div>
                     <div className="content">
                       <h1 className="detail_title">{data.title}</h1>
-                      <p>評価星</p>
+                      <p>評価⭐︎</p>
 
                       <div>
                       </div>
@@ -54,7 +54,7 @@ import React, { useEffect, useState } from 'react';
                           Image
                         </div> 
                         <div className="item_detail_content">
-                          <h1>{data.body}</h1>
+                          <h1>{data.body}{data.body}{data.body}{data.body}</h1>
                         </div>
                         <h5>category: <h1>{data.category}</h1></h5>
                         {/* <h5>category:{test.hoge.map(text=><h1>{text}</h1>)}</h5> */}
