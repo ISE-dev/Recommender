@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from 'react';
 
-  export class DetailContent extends React.Component {
-    render() {
-      return (
-        <div>
-          <Post />
-        </div>
-      );
-    }
+export class DetailContent extends React.Component {
+  render() {
+    return (
+      <div>
+        <Post />
+      </div>
+    );
   }
-
+}
 
   function Post(){
     const [posts, setPosts] = useState([]);
@@ -24,11 +23,10 @@ import React, { useEffect, useState } from 'react';
     var thisUrl = location.href;
     var postId = thisUrl.match(/([^\/.]+)/g);
     postId = postId[postId.length-1]//ここにidが入る
-    // console.log(postId)
-    const data = posts[postId];
-    console.log("test")
-    console.log(data);
-    console.log("test")
+    const data = posts[postId-1];
+    // console.log("test")
+    // console.log(postId);
+    // console.log("test")
     var judge=false;
     var test={hoge:["test1","test2"]};
     if(data!=undefined){
@@ -65,8 +63,7 @@ import React, { useEffect, useState } from 'react';
     );
   }
 
-
-  export class DetailMessage extends React.Component{
+export class DetailMessage extends React.Component{
     render(){
       return (
         <div>
