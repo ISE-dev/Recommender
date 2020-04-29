@@ -6,23 +6,20 @@ import React, { useEffect, useState } from 'react';
         <div>
           <Post />
         </div>
-      );  
+      );
     }
   }
 
-
-    
 
   function Post(){
     const [posts, setPosts] = useState([]);
     useEffect(() => {
       getPosts()
-    }, [])  
+    }, [])
     const getPosts = async () => {
       const res = await axios.get('/api/');
       setPosts(res.data.post);
     }
-
     // 正規表現によりurlの一番後ろのIDの取り出し
     var thisUrl = location.href;
     var postId = thisUrl.match(/([^\/.]+)/g);
@@ -37,7 +34,6 @@ import React, { useEffect, useState } from 'react';
     if(data!=undefined){
         judge=true;
     }
-
     return (
         <div>
             {judge &&(
@@ -45,14 +41,13 @@ import React, { useEffect, useState } from 'react';
                     <div className="content">
                       <h1 className="detail_title">{data.title}</h1>
                       <p>評価⭐︎</p>
-
                       <div>
                       </div>
                     </div>
                       <div className="content">
                         <div className="item_image">
                           Image
-                        </div> 
+                        </div>
                         <div className="item_detail_content">
                           <h1>{data.body}{data.body}{data.body}{data.body}</h1>
                         </div>
@@ -69,7 +64,6 @@ import React, { useEffect, useState } from 'react';
          </div>
     );
   }
-
 
 
   export class DetailMessage extends React.Component{
