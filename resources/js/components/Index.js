@@ -5,12 +5,9 @@ import axios from "axios";
 import style from "../../css/index.css";
 import {Header, RecentMessage, RecentPost, GoTop} from "./Home";
 import {DetailContent, DetailMessage} from "./showDetail";
-import  {HashLink} from "react-router-hash-link";
-
 
 
 class App extends React.Component {
-
   render() {
     return (
       <div>

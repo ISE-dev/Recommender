@@ -15,7 +15,6 @@
 
 }
 
-
 .link{
     display: inline-block;
     height: 35px;
@@ -50,12 +49,10 @@
     text-align: center;
 }
 
-
 .header-form{
     float: right;
     top: 5%;
 }
-
 
 .content {
     margin-top: 5%;
@@ -88,7 +85,6 @@
   .go_top:hover {
     color:red;
     text-decoration: none;
-
   }
 
 .content_zone {
@@ -108,12 +104,10 @@
     margin: 30px 60px;
 }
 
-
 .RecommendedItem:hover {
     background-color: rgba(73, 35, 154, 0.2);
     text-decoration: none;
     color: white;
-
 }
 
 .item_image{
@@ -142,10 +136,7 @@
     margin-right: 1%;
     float: right;
     margin-top: 3%;
-
-
 }
-
 
 .contributor {
     top: 0px;
