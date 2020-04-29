@@ -115,3 +115,40 @@
     color: white;
 
 }
+
+.item_image{
+    background: rgba(73, 35, 154, 0.33);
+    float: left;
+    height: 309px;
+    width: 544px;
+}
+
+.item_detail_content{
+    float: right;
+}
+
+.detail_title {
+    font-size: 100px;
+    margin: 0px;
+    margin-left: 10%;
+}
+
+.contributor_icon_area {
+    background: rgba(73, 35, 154, 0.33);
+    float: left;
+    height: 70px;
+    width: 100px;
+    margin-right: 1%;
+    float: right;
+    margin-top: 3%;
+
+
+}
+
+
+.contributor {
+    top: 0px;
+    margin-top: 5%;
+    margin-right: 5%;
+    float: right;
+}

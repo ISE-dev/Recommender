@@ -33,18 +33,33 @@ import React, { useEffect, useState } from 'react';
     console.log(data);
     console.log("test")
     var judge=false;
+    var test={hoge:["test1","test2"]};
     if(data!=undefined){
         judge=true;
     }
 
     return (
-        <div className="content">
+        <div>
             {judge &&(
                 <div>
-                    <h1>{data.title}</h1>
-                    <h1>{data.body}</h1>
-                    <h1>{data.category}</h1>
-                </div>
+                    <div className="content">
+                      <h1 className="detail_title">{data.title}</h1>
+                      <p>評価星</p>
+
+                      <div>
+                      </div>
+                    </div>
+                      <div className="content">
+                        <div className="item_image">
+                          Image
+                        </div> 
+                        <div className="item_detail_content">
+                          <h1>{data.body}</h1>
+                        </div>
+                        {/* <h5>category: {data.category.map(text=><h1>{text}</h1>)}</h5> */}
+                        <h5>category:{test.hoge.map(text=><h1>{text}</h1>)}</h5>
+                      </div>
+                  </div>
             )}
             {!judge &&(
                 <div>
@@ -61,7 +76,11 @@ import React, { useEffect, useState } from 'react';
     render(){
       return (
         <div>
-          <h1 className="announce">detail post</h1>
+          {/* <h1 className="announce">detail post</h1> */}
+          <a href="#">
+          <h5 className="contributor">contributor name</h5>
+          <div className="contributor_icon_area">icon</div>
+          </a>
         </div>
       );
     }
