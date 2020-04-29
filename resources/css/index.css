@@ -119,8 +119,9 @@
 .item_image{
     background: rgba(73, 35, 154, 0.33);
     float: left;
-    height: 309px;
-    width: 544px;
+    height: 100%;
+    width: 100%;
+    
 }
 
 .item_detail_content{
