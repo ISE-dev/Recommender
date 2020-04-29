@@ -56,8 +56,8 @@ import React, { useEffect, useState } from 'react';
                         <div className="item_detail_content">
                           <h1>{data.body}</h1>
                         </div>
-                        {/* <h5>category: {data.category.map(text=><h1>{text}</h1>)}</h5> */}
-                        <h5>category:{test.hoge.map(text=><h1>{text}</h1>)}</h5>
+                        <h5>category: <h1>{data.category}</h1></h5>
+                        {/* <h5>category:{test.hoge.map(text=><h1>{text}</h1>)}</h5> */}
                       </div>
                   </div>
             )}
