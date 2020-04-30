@@ -12,14 +12,16 @@ export class Header extends React.Component {
          </div>
           <div className="header-form">
            <form>
-             <button> 🔍</button>
-             <input type="search" placeholder="キーワードを入力"></input>
+              <div className="search_area">
+                <button> 🔍</button>
+                <input type="search" placeholder="キーワードを入力"></input>
+              </div>
            </form>
          </div>
        </div>
      </header>);
-    }
   }
+}
 
 export class RecentMessage extends React.Component{
     render(){
