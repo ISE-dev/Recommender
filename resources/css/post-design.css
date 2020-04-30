@@ -1,0 +1,150 @@
+/*　登録ページ　デザイン　CSS　*/
+.header {
+    background-color: #aaa;
+    color:white;
+    height: 50px;
+    padding: 10px 20px 20px 10px;
+    height: 70px;
+}
+.title>a {
+    color: #E5E5E5;
+    color: inherit;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+.link{
+    display: inline-block;
+    height: 35px;
+    /* width: 100px; */
+    margin-left: 50%;
+    font-size: 20px;
+}
+.header-right {
+    float: right;
+    color: #E5E5E5;
+}
+.header-left {
+    float: left;
+}
+.signup{
+    margin-left:10px;
+    float: left;
+    color: inherit;
+}
+.login{
+    margin-left:10px;
+    float: right;
+    color: inherit;
+}
+.announce {
+    text-align: center;
+}
+.header-form{
+    float: right;
+    top: 5%;
+}
+
+h1{
+    position: absolute;
+    width: 1440px;
+    height: 120px;
+    left: 0px;
+    top: -3px;
+}
+
+/* .line{
+    position: absolute;
+    width: 1440px;
+    height: 54px;
+    left: 0px;
+    top: 117px;
+
+background: linear-gradient(180deg, #FFFFFF 0%, */
+
+
+h2{
+    position: absolute;
+    width: 261px;
+    height: 78px;
+    left: 45px;
+    top: 215px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+
+    color: #000000;
+}
+
+.name{
+    position: absolute;
+    width: 541px;
+    height: 98px;
+    left: 142px;
+    top: 337px;
+    font-size: 30px;
+}
+
+.category{
+    position: absolute;
+    width: 541px;
+    height: 131px;
+    left: 142px;
+    top: 514px;
+    font-size: 30px;
+}
+
+.introduce{
+    position: absolute;
+    width: 857px;
+    height: 212px;
+    left: 142px;
+    top: 701px;
+    font-size: 30px;
+}
+
+input[type="text"]{
+    width: 800px;
+    height: 50px;
+    background: linear-gradient(0deg, #E5E5E5, #E5E5E5),
+                linear-gradient(0deg, #1CE1EE, #1CE1EE), #C4C4C4;
+}
+
+textarea{
+    width: 800px;
+    height: 100px;
+    background: linear-gradient(0deg, #E5E5E5, #E5E5E5),
+                linear-gradient(0deg, #1CE1EE, #1CE1EE), #C4C4C4;
+}
+
+
+.send-button{
+    position: absolute;
+    width: 169px;
+    height: 90px;
+    left: 1189px;
+    top: 807px;
+    font-size: 30px;
+}
+
+
+.hover{
+    font-size: 20px;
+    padding: 35px 80px;
+    background-color: #0BFFA7;
+    border-radius: 100px;
+}
+
+.hover:hover{
+    background-color: lime;
+    border-radius: 100px;
+}
+
+/*選択ボタン*/
+.select{
+    width: 100px;
+    height: 500px;
+}
