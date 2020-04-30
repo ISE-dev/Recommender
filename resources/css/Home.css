@@ -1,0 +1,63 @@
+.content {
+    margin-top: 5%;
+    margin:5% 60px;
+    display:grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.go_top {
+    display: inline-block;
+    text-decoration: none;
+    background: #87befd;
+    color: #FFF;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    transition: .4s;
+    margin-bottom: 10%;
+    float: right;
+    font-size: 70px;
+    background: #ADADAD;
+    top:"true";
+  }
+  
+  .go_top:hover {
+    color:red;
+    text-decoration: none;
+  }
+
+.content_zone {
+    color: black;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.content_zone:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.RecommendedItem{
+    background: rgba(73, 35, 154, 0.33);
+    margin: 30px 60px;
+}
+
+.RecommendedItem:hover {
+    background-color: rgba(73, 35, 154, 0.2);
+    text-decoration: none;
+    color: white;
+}
+
+.item_image{
+    background: rgba(73, 35, 154, 0.33);
+    float: left;
+    height: 100%;
+    width: 100%;
+    
+}
