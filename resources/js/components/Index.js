@@ -3,6 +3,8 @@ import { BrowserRouter, Route , Switch} from 'react-router-dom';
 import ReactDom from 'react-dom';
 import axios from "axios";
 import style from "../../css/index.css";
+import home from "../../css/home.css";
+import detail from "../../css/detail.css"
 import {Header, RecentMessage, RecentPost, GoTop} from "./Home";
 import {DetailContent, DetailMessage} from "./showDetail";
 
