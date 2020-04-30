@@ -7,6 +7,9 @@
     margin: 0px;
     margin-left: 10%;
 }
+.eval {
+    margin-left: 20%;
+}
 
 @media screen and  (min-width:768px){
     .contributor_icon_area {
@@ -55,4 +58,5 @@
         margin-right: 5%;
         float: right;
     }
+    
 }

@@ -36,9 +36,11 @@ export class DetailContent extends React.Component {
         <div>
             {judge &&(
                 <div>
+                  <div>
+                    <h3 className="detail_title">{data.title}</h3>    
+                    <p className="eval">評価⭐︎</p>
+                  </div>
                     <div className="content">
-                      <h1 className="detail_title">{data.title}</h1>
-                      <p>評価⭐︎</p>
                       <div>
                       </div>
                     </div>
