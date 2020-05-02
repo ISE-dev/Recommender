@@ -20,11 +20,11 @@
     margin-left: 50%;
     font-size: 20px;
 }
-.header-right {
+.header_right {
     float: right;
     color: #E5E5E5;
 }
-.header-left {
+.header_left {
     float: left;
 }
 .signup{
@@ -40,7 +40,7 @@
 .announce {
     text-align: center;
 }
-.header-form{
+.header_form{
     float: right;
     top: 5%;
 }
