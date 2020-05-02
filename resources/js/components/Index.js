@@ -17,7 +17,9 @@ class App extends React.Component {
         <BrowserRouter>
           <Switch>
             <Route path="/detail">
+              <div>
               <DetailMessage />
+              </div>
               <DetailContent />
             </Route>
             <Route path="/">

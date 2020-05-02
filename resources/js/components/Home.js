@@ -1,6 +1,15 @@
 import React, { useEffect, useState } from 'react';
 
 export class Header extends React.Component {
+  displayArea(size) {
+    var display=true;
+    if(window.innerWidth>size){
+      display=true;
+    }else{
+      display=false;
+    }
+    return display;
+  }
   render() {
     return (<header id="top">
        <div className="header">
@@ -12,14 +21,19 @@ export class Header extends React.Component {
          </div>
           <div className="header-form">
            <form>
-             <button> 🔍</button>
-             <input type="search" placeholder="キーワードを入力"></input>
+              <div className="search_area">
+                {this.displayArea(400) &&(
+              <button> 🔍</button>)}
+              {this.displayArea(300) &&(
+                <input type="search" placeholder="キーワードを入力"></input>
+              )}
+              </div>
            </form>
          </div>
        </div>
      </header>);
-    }
   }
+}
 
 export class RecentMessage extends React.Component{
     render(){

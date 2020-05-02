@@ -1,146 +1,124 @@
-.header {
-    background-color: #aaa;
-    color:white;
-    height: 50px;
-    padding: 10px 20px 20px 10px;
-    height: 70px;
-}
-
+/* ヘッダー */
 .title>a {
     color: #E5E5E5;
     color: inherit;
     height: 100%;
     width: 100%;
     text-decoration: none;
-
-}
-
-.link{
-    display: inline-block;
-    height: 35px;
-    /* width: 100px; */
-    margin-left: 50%;
-    font-size: 20px;
-}
-
-.header-right {
-    float: right;
-    color: #E5E5E5;
-}
-
-.header-left {
-    float: left;
-}
-
-.signup{
-    margin-left:10px;
-    float: left;
-    color: inherit;
-
-}
-
-.login{ 
-    margin-left:10px;
-    float: right;
-    color: inherit;
 }
 
 .announce {
     text-align: center;
 }
 
-.header-form{
-    float: right;
-    top: 5%;
-}
-
-/* .content {
-    margin-top: 5%;
-    margin:5% 60px;
-    display:grid;
-    grid-gap: 1rem;
-    grid-template-columns: 1fr 1fr;
-
-}
-
-.go_top {
-    display: inline-block;
-    text-decoration: none;
-    background: #87befd;
-    color: #FFF;
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
-    border-radius: 50%;
-    text-align: center;
-    overflow: hidden;
-    transition: .4s;
-    margin-bottom: 10%;
-    float: right;
-    font-size: 70px;
-    background: #ADADAD;
-    top:"true";
-  }
-  
-  .go_top:hover {
-    color:red;
-    text-decoration: none;
-  }
-
-.content_zone {
-    color: black;
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-}
-
-.content_zone:hover {
-    text-decoration: none;
-    color: white;
-}
-
-.RecommendedItem{
-    background: rgba(73, 35, 154, 0.33);
-    margin: 30px 60px;
-}
-
-.RecommendedItem:hover {
-    background-color: rgba(73, 35, 154, 0.2);
-    text-decoration: none;
-    color: white;
-}
-
-.item_image{
-    background: rgba(73, 35, 154, 0.33);
-    float: left;
-    height: 100%;
-    width: 100%;
+@media screen and  (min-width:768px){
+    /* for pc */
+    .header {
+        background-color: #aaa;
+        color:white;
+        height: 50px;
+        padding: 10px 20px 20px 10px;
+        height: 70px;
+    }
     
+    
+    .link{
+        display: inline-block;
+        height: 35px;
+        /* width: 100px; */
+        margin-left: 50%;
+        font-size: 20px;
+    }
+    
+    .header-right {
+        float: right;
+        color: #E5E5E5;
+    }
+    
+    .header-left {
+        float: left;
+    }
+    
+    .signup{
+        margin-left:10px;
+        float: left;
+        color: inherit;
+    
+    }
+    
+    .login{ 
+        margin-left:10px;
+        float: right;
+        color: inherit;
+    }
+    
+    
+
+    
+    .header-form{
+        float: right;
+        top: 5%;
+    }
 }
 
-.item_detail_content{
-    float: right;
+@media screen and (max-width:768px){
+
+    .header {
+        background-color: #aaa;
+        color:white;
+        height: 50px;
+        padding: 10px 20px 20px 10px;
+        height: 100px;
+    }
+
+    .search_area {
+        float: right;
+    }
+    
+    .header-form{
+        margin: 0px;
+
+    }
+    .link{
+        display: inline-block;
+        height: 35px;
+        width: 100px;
+        margin-left: 50%;
+        font-size: 20px;
+    }
+    
+    .header-right {
+        float: right;
+        color: #E5E5E5;
+    }
+    
+    .header-left {
+        float: left;
+    }
+    
+    .signup{
+        margin-left:10px;
+        float: left;
+        color: inherit;
+    
+    }
+    
+    .login{ 
+        margin-left:10px;
+        float: right;
+        color: inherit;
+    }
 }
 
-.detail_title {
-    font-size: 100px;
-    margin: 0px;
-    margin-left: 10%;
+@media screen and (max-width:400px){
+    .header {
+        height: 150px;
+    }
+}
+@media screen and (max-width:300px){
+    .header {
+        height: 100px;
+    }
 }
 
-.contributor_icon_area {
-    background: rgba(73, 35, 154, 0.33);
-    float: left;
-    height: 70px;
-    width: 100px;
-    margin-right: 1%;
-    float: right;
-    margin-top: 3%;
-}
-
-.contributor {
-    top: 0px;
-    margin-top: 5%;
-    margin-right: 5%;
-    float: right;
-} */
+/* ここまでヘッダー */    
