@@ -7,7 +7,6 @@ export class NewPost extends React.Component {
     render() {
         return (
             <div className="registration">
-                <div className="line"></div>
                 <h2 className="new_post_title" >投稿作成</h2>
 
                 <div className="name">
@@ -25,8 +24,8 @@ export class NewPost extends React.Component {
                     <textarea name="comment" cols="30" rows="5"></textarea>
                 </div>
 
-                <div className="send-button">
-                    <p><input class="hover" type="submit" value="送信"></input></p>
+                <div className="sendarea">
+                    <p><input className="submit_button" type="submit" value="送信"></input></p>
                 </div>
             </div>
         );

@@ -1,7 +1,7 @@
-.go_top:hover {
+/* .go_top:hover {
     color:red;
     text-decoration: none;
-  }
+  } */
 
 .content_zone {
     color: black;
@@ -35,7 +35,7 @@
     
 }
 
-.go_top {
+/* .go_top {
     display: inline-block;
     text-decoration: none;
     background: #87befd;
@@ -51,9 +51,11 @@
     font-size: 70px;
     background: #ADADAD;
     top:"true";
-    margin-top: 60%;
+    margin-top: 40%;
     margin-left: 90%;
-  }
+  } */
+
+  
 
 @media screen and  (min-width:768px){
     .content {

@@ -1,125 +1,82 @@
-/* ヘッダー */
-.title>a {
-    color: #E5E5E5;
-    color: inherit;
-    height: 100%;
-    width: 100%;
+
+
+.go_top {
+    display: inline-block;
     text-decoration: none;
+    background: #87befd;
+    color: #FFF;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    transition: .4s;
+    margin-bottom: 10%;
+    font-size: 70px;
+    background: #ADADAD;
+    top:"true";
+    margin-top: 40%;
+    margin-left: 90%;
 }
 
-.announce {
-    text-align: center;
-}
 
 @media screen and  (min-width:768px){
-    /* for pc */
-    .header {
-        background-color: #aaa;
-        color:white;
-        height: 50px;
-        padding: 10px 20px 20px 10px;
+    .contributor_icon_area {
+        background: rgba(73, 35, 154, 0.33);
+        float: left;
         height: 70px;
-    }
-    
-    
-    .link{
-        display: inline-block;
-        height: 35px;
-        /* width: 100px; */
-        margin-left: 50%;
-        font-size: 20px;
-    }
-    
-    .header_right {
+        width: 100px;
+        margin-right: 1%;
         float: right;
-        color: #E5E5E5;
+        margin-top: 3%;
     }
     
-    .header_left {
-        float: left;
-    }
-    
-    .signup{
-        margin-left:10px;
-        float: left;
-        color: inherit;
-    
-    }
-    
-    .login{ 
-        margin-left:10px;
+    .contributor {
+        top: 0px;
+        margin-top: 5%;
+        margin-right: 5%;
         float: right;
-        color: inherit;
     }
-    
-    
 
-    
-    .header_form{
-        float: right;
-        top: 5%;
+    .go_top{
+        width: 80px;
+        height: 80px;
+        font-size: 50px;
+        margin-left: 90%;
+        position: fixed;
+        
     }
+    
 }
+
+
+@@media screen and  (min-width:768px){
+    .go_top{
+        width: 80px;
+        height: 80px;
+        font-size: 50px;
+        margin-left: 90%;
+        position: fixed;
+        
+    }
+    
+}
+
 
 @media screen and (max-width:768px){
-
-    .header {
-        background-color: #aaa;
-        color:white;
-        height: 50px;
-        padding: 10px 20px 20px 10px;
-        height: 70px;
+    .go_top{
+        width: 80px;
+        height: 80px;
+        font-size: 50px;
+        margin-left: 80%;
+        position: static;
+        margin-top: 5%;
     }
     
-    
-    .link{
-        display: inline-block;
-        height: 35px;
-        /* width: 100px; */
-        margin-left: 50%;
-        font-size: 20px;
-    }
-    
-    .header_right {
-        float: right;
-        color: #E5E5E5;
-    }
-    
-    .header_left {
-        float: left;
-    }
-    
-    .signup{
-        margin-left:10px;
-        float: left;
-        color: inherit;
-    
-    }
-    
-    .login{ 
-        margin-left:10px;
-        float: right;
-        color: inherit;
-    }
-    
-    
-
-    
-    .header_form{
-        float: right;
-        top: 5%;
-    }
 }
 
-@media screen and (max-width:400px){
-    .header {
-        height: 150px;
-    }
+.go_top:hover {
+    color:red;
+    text-decoration: none;
 }
-@media screen and (max-width:300px){
-    .header {
-        height: 100px;
-    }
-}
-
-/* ここまでヘッダー */    

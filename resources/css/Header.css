@@ -1,0 +1,132 @@
+/* ヘッダー */
+.title>a {
+    color: #E5E5E5;
+    color: inherit;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.announce {
+    text-align: center;
+}
+
+@media screen and  (min-width:768px){
+    /* for pc */
+    .header {
+        background-color: #aaa;
+        color:white;
+        height: 50px;
+        padding: 10px 20px 20px 10px;
+        height: 70px;
+    }
+    
+    
+    .link{
+        display: inline-block;
+        height: 35px;
+        /* width: 100px; */
+        margin-left: 50%;
+        font-size: 20px;
+    }
+    
+    .header_right {
+        float: right;
+        color: #E5E5E5;
+    }
+    
+    .header_left {
+        float: left;
+    }
+    
+    .signup{
+        margin-left:10px;
+        float: left;
+        color: inherit;
+    
+    }
+    
+    .login{ 
+        margin-left:10px;
+        float: right;
+        color: inherit;
+    }
+    
+    
+
+    
+    .header_form{
+        float: right;
+        top: 5%;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    .header {
+        background-color: #aaa;
+        color:white;
+        height: 50px;
+        padding: 10px 20px 20px 10px;
+        height: 70px;
+    }
+    
+    
+    .link{
+        display: inline-block;
+        height: 35px;
+        /* width: 100px; */
+        margin-left: 50%;
+        font-size: 20px;
+    }
+    
+    .header_right {
+        float: right;
+        color: #E5E5E5;
+    }
+    
+    .header_left {
+        float: left;
+    }
+    
+    .signup{
+        margin-left:10px;
+        float: left;
+        color: inherit;
+    
+    }
+    
+    .login{ 
+        margin-left:10px;
+        float: right;
+        color: inherit;
+    }
+    
+    
+
+    
+    .header_form{
+        float: right;
+        top: 5%;
+    }
+}
+
+@media screen and (max-width:530px){
+    .header {
+        height: 100px;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .header {
+        height: 150px;
+    }
+}
+@media screen and (max-width:300px){
+    .header {
+        height: 100px;
+    }
+}
+
+/* ここまでヘッダー */    
