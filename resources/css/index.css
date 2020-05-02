@@ -109,4 +109,16 @@
         color: inherit;
     }
 }
-    /* ここまでヘッダー */    
+
+@media screen and (max-width:400px){
+    .header {
+        height: 150px;
+    }
+}
+@media screen and (max-width:300px){
+    .header {
+        height: 100px;
+    }
+}
+
+/* ここまでヘッダー */    

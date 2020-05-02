@@ -21,13 +21,14 @@
 
 .RecommendedItem{
     background: rgba(73, 35, 154, 0.33);
-    margin: 30px 60px;
+    margin: 10% 5%;
 }
 
 .RecommendedItem:hover {
     background-color: rgba(73, 35, 154, 0.2);
     text-decoration: none;
     color: white;
+    margin: 0px;
 }
 
 .item_image{
@@ -41,7 +42,7 @@
 @media screen and  (min-width:768px){
     .content {
         margin-top: 5%;
-        margin:5% 60px;
+        margin:5% 10%;
         display:grid;
         grid-gap: 1rem;
         grid-template-columns: 1fr 1fr;
@@ -66,63 +67,11 @@
       }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:400px) {
     .content {
         margin-top: 5%;
-        margin:5% 60px;
+        margin:5% 10%;
         display:grid;
         grid-gap: 1rem;    
-    }
-
-    .go_top {
-        display: inline-block;
-        text-decoration: none;
-        background: #87befd;
-        color: #FFF;
-        width: 50px;
-        height: 50px;
-        line-height: 50px;
-        border-radius: 50%;
-        text-align: center;
-        overflow: hidden;
-        transition: .4s;
-        margin-bottom: 10%;
-        float: right;
-        font-size: 30px;
-        background: #ADADAD;
-        top:"true";
-    }
-}
-
-@media screen and (max-width:550px) {
-    .content {
-        margin-top: 5%;
-        margin:5% 60px;
-        display:grid;
-        grid-gap: 1rem;    
-    }
-
-    .go_top {
-        display: inline-block;
-        text-decoration: none;
-        background: #87befd;
-        color: #FFF;
-        width: 50px;
-        height: 50px;
-        line-height: 50px;
-        border-radius: 50%;
-        text-align: center;
-        overflow: hidden;
-        transition: .4s;
-        margin-bottom: 10%;
-        float: right;
-        font-size: 30px;
-        background: #ADADAD;
-        top:"true";
-    }
-
-    .RecommendedItem {
-        margin: 0px;
-        margin-bottom: 20px;
     }
 }
