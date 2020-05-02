@@ -13,13 +13,13 @@ export class Header extends React.Component {
   render() {
     return (<header id="top">
        <div className="header">
-          <div className="header-left">
+          <div className="header_left">
            <h1 className="title"><a href="/">App title</a></h1>
           </div>
-         <div className="header-right">
+         <div className="header_right">
            <a href="#" className="signup link">新規登録</a><a href="#" className="login link">ログイン</a>
          </div>
-          <div className="header-form">
+          <div className="header_form">
            <form>
               <div className="search_area">
                 {this.displayArea(400) &&(
