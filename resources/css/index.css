@@ -68,31 +68,24 @@
         color:white;
         height: 50px;
         padding: 10px 20px 20px 10px;
-        height: 100px;
-    }
-
-    .search_area {
-        float: right;
+        height: 70px;
     }
     
-    .header-form{
-        margin: 0px;
-
-    }
+    
     .link{
         display: inline-block;
         height: 35px;
-        width: 100px;
+        /* width: 100px; */
         margin-left: 50%;
         font-size: 20px;
     }
     
-    .header-right {
+    .header_right {
         float: right;
         color: #E5E5E5;
     }
     
-    .header-left {
+    .header_left {
         float: left;
     }
     
@@ -107,6 +100,14 @@
         margin-left:10px;
         float: right;
         color: inherit;
+    }
+    
+    
+
+    
+    .header_form{
+        float: right;
+        top: 5%;
     }
 }
 

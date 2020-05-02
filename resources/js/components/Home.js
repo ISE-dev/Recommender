@@ -17,7 +17,8 @@ export class Header extends React.Component {
            <h1 className="title"><a href="/">App title</a></h1>
           </div>
          <div className="header_right">
-           <a href="#" className="signup link">新規登録</a><a href="#" className="login link">ログイン</a>
+           <a href="#" className="signup link">新規登録</a>
+           <a href="#" className="login link">ログイン</a>
          </div>
           <div className="header_form">
            <form>
@@ -32,6 +33,14 @@ export class Header extends React.Component {
          </div>
        </div>
      </header>);
+  }
+}
+
+export class ToPostLink extends React.Component{
+  render() {
+    return (
+      <h1><a href="/post">new post!</a></h1>
+    )
   }
 }
 
