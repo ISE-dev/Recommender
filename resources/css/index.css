@@ -20,6 +20,11 @@
     margin-left: 90%;
 }
 
+.go_top:hover {
+    color:red;
+    text-decoration: none;
+}
+
 
 @media screen and  (min-width:768px){
     .contributor_icon_area {
@@ -51,16 +56,14 @@
 }
 
 
-@@media screen and  (min-width:768px){
+@media screen and  (min-width:768px){
     .go_top{
         width: 80px;
         height: 80px;
         font-size: 50px;
         margin-left: 90%;
-        position: fixed;
-        
+        position: fixed;   
     }
-    
 }
 
 
@@ -73,10 +76,5 @@
         position: static;
         margin-top: 5%;
     }
-    
 }
 
-.go_top:hover {
-    color:red;
-    text-decoration: none;
-}

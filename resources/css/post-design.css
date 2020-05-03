@@ -61,19 +61,17 @@
 }
 
 input[type="text"]{
-    width: 200%;
     background: linear-gradient(0deg, #E5E5E5, #E5E5E5),
                 linear-gradient(0deg, #1CE1EE, #1CE1EE), #C4C4C4;
 }
 
 textarea{
-    width: 100%;
     background: linear-gradient(0deg, #E5E5E5, #E5E5E5),
                 linear-gradient(0deg, #1CE1EE, #1CE1EE), #C4C4C4;
 }
 
 
-.sendarea{
+.sendArea{
     position: absolute;
     left: 70%;
     /* top: 807px;  */
@@ -93,24 +91,24 @@ textarea{
     background-color: #AAFFFF;
     border-radius: 100px;
 }
+/* 
 
-/* 選択ボタン
+選択ボタン
 .select{
     width: 100px;
     height: 500px;
 } */
 
-@media screen and(min-width:1000px) {
+@media screen and (min-width:1000px) {
     input[type="text"]{
         width: 300%;
     }
-        
     textarea{
         width: 205%;
-    }   
+    }
 }
 
-@media screen and(max-width:1000px) {
+@media screen and (max-width:1000px) {
     input[type="text"]{
         width: 200%;
     }
@@ -118,4 +116,31 @@ textarea{
     textarea{
         width: 100%;
     }   
+}
+
+@media screen and (max-width:750px){
+    /* input[type="text"]{
+        width: 100%;
+    }
+    
+    textarea{
+        width: 50%;
+    } */
+
+    .name{
+        font-size: 100%; 
+    }
+    .new_post_title{
+        font-size: 30px;
+    }
+    .category{
+        font-size: 100%;
+    }
+    .introduce{
+        font-size: 100%;
+    }
+    .sendArea{
+        top: 100%;
+        left: 50%;
+    }
 }

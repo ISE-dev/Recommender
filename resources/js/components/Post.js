@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-// import {Header} from "./Home.js";
 import style from "../../css/post-design.css"
 
 export class NewPost extends React.Component {
@@ -24,7 +23,7 @@ export class NewPost extends React.Component {
                     <textarea name="comment" cols="30" rows="5"></textarea>
                 </div>
 
-                <div className="sendarea">
+                <div className="sendArea">
                     <p><input className="submit_button" type="submit" value="送信"></input></p>
                 </div>
             </div>
