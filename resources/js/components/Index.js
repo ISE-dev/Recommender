@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Route , Switch} from 'react-router-dom';
 import ReactDom from 'react-dom';
-import axios from "axios";
-import style from "../../css/index.css";
-import home from "../../css/home.css";
-import detail from "../../css/detail.css"
-import {Header, RecentMessage, RecentPost, GoTop} from "./Home";
-import {DetailContent, DetailMessage} from "./showDetail";
 
+import home_style from "../../css/home.css";
+import {RecentMessage, RecentPost, GoTop} from "./Home";
+import {DetailContent, DetailMessage} from "./showDetail";
+import {ToPostLink, NewPost} from "./Post";
+import {Header} from "./Header";
 
 class App extends React.Component {
   render() {
@@ -16,19 +15,24 @@ class App extends React.Component {
         <Header />
         <BrowserRouter>
           <Switch>
+            <Route path="/post">
+              <NewPost />
+            </Route>
             <Route path="/detail">
               <div>
               <DetailMessage />
               </div>
               <DetailContent />
             </Route>
+
             <Route path="/">
+              {window.innerWidth>780 &&(<GoTop />)}
               <RecentMessage />
               <RecentPost />
+              {window.innerWidth<=780 &&(<GoTop />)}
             </Route>
           </Switch>
         </BrowserRouter>
-        <GoTop />
       </div>
     );
   }

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import detail_style from "../../css/detail.css";
 
 export class DetailContent extends React.Component {
   render() {

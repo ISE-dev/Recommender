@@ -1,15 +1,12 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import {Header} from "./Home.js";
 import style from "../../css/post-design.css"
 
-export class Registration extends React.Component {
+export class NewPost extends React.Component {
     render() {
         return (
             <div className="registration">
-                <Header />
-                <div className="line"></div>
-                <h2>投稿作成</h2>
+                <h2 className="new_post_title" >投稿作成</h2>
 
                 <div className="name">
                     ・タイトル<br></br>
@@ -26,11 +23,21 @@ export class Registration extends React.Component {
                     <textarea name="comment" cols="30" rows="5"></textarea>
                 </div>
 
-                <div className="send-button">
-                    <p><input class="hover" type="submit" value="送信"></input></p>
+                <div className="sendArea">
+                    <p><input className="submit_button" type="submit" value="送信"></input></p>
                 </div>
             </div>
         );
     }
 }
-ReactDom.render(<Registration />, document.getElementById('app'));
+
+
+
+export class ToPostLink extends React.Component{
+    render() {
+      return (
+        <h1><a href="/post">new post!</a></h1>
+      )
+    }
+  }
+  
