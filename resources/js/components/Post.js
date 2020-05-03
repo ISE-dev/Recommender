@@ -42,4 +42,3 @@ export class ToPostLink extends React.Component{
     }
   }
   
-// ReactDom.render(<NewPost />, document.getElementById('app'));
