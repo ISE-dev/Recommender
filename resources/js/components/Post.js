@@ -32,6 +32,8 @@ export class NewPost extends React.Component {
     }
 }
 
+
+
 export class ToPostLink extends React.Component{
     render() {
       return (
